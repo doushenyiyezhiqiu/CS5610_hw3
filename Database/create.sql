@@ -10,3 +10,4 @@ CREATE TABLE userNameAndPassword (
 );
 
 INSERT INTO userNameAndPassword (`username`, `password`) VALUES ('user', 'password');
+INSERT INTO userNameAndPassword (`username`, `password`) VALUES ('abc', 'abc');
