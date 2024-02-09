@@ -1,3 +1,5 @@
+DROP DATABASE IF EXISTS myBlogLogin;
+
 CREATE DATABASE myBlogLogin;
 
 USE myBlogLogin;
@@ -7,4 +9,4 @@ CREATE TABLE userNameAndPassword (
     password VARCHAR(255)
 );
 
-INSERT INTO userNameAndPassword (username, password) VALUES ('yourUsername', 'yourPassword');
+INSERT INTO userNameAndPassword (username, password) VALUES ('user', 'password');
