@@ -9,4 +9,4 @@ CREATE TABLE userNameAndPassword (
     password VARCHAR(255)
 );
 
-INSERT INTO userNameAndPassword (username, password) VALUES ('user', 'password');
+INSERT INTO userNameAndPassword (`username`, `password`) VALUES ('user', 'password');
