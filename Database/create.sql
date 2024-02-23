@@ -9,5 +9,11 @@ CREATE TABLE userNameAndPassword (
     password VARCHAR(255)
 );
 
+CREATE TABLE welcome_messages (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    message TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 INSERT INTO userNameAndPassword (`username`, `password`) VALUES ('user', 'password');
 INSERT INTO userNameAndPassword (`username`, `password`) VALUES ('abc', 'abc');

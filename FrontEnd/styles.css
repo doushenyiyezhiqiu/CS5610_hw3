@@ -46,3 +46,69 @@ nav ul li a {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* Welcome Message Form Styles */
+.welcome-message-form {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.welcome-message-form input[type="text"] {
+    width: calc(100% - 22px); /* Input width minus padding */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.welcome-message-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.welcome-message-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Welcome Messages Display Styles */
+.welcome-messages-display {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-messages-display h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.welcome-messages-display #messagesContainer p {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    word-break: break-word; /* Ensure long words don't overflow */
+}
